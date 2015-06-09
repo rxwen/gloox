@@ -17,6 +17,7 @@
 #include <stdlib.h>
 
 #include <algorithm>
+#include <cctype>
 
 namespace gloox
 {

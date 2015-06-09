@@ -263,7 +263,7 @@ namespace gloox
 
       while( output.empty() || value > 0 )
       {
-        output.insert( 0, 1, static_cast<char>( value % base + '0' ) );
+        output.insert( (size_t)0, (size_t)1, static_cast<char>( value % base + '0' ) );
         value /= base;
       }
 

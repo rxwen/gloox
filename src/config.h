@@ -20,6 +20,8 @@
 # include "../config.h.win"
 #elif defined( __SYMBIAN32__ )
 # include "../config.h.symbian"
+#elif defined( __ANDROID__ )
+# include "../config.h.android"
 #else
 # include "config.h.unix" // run ./configure to create config.h.unix
 #endif
